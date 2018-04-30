@@ -3,8 +3,6 @@
 public class Shop : MonoBehaviour {
     public TurretBlueprint standardTurret;
     public TurretBlueprint advancedTurret;
-    public TurretBlueprint epicTurret;
-
     BuildManager buildManager;
 
     void Start()
@@ -28,11 +26,4 @@ public class Shop : MonoBehaviour {
         //choose advanced turret
         buildManager.SetTurretToBuild(advancedTurret);
     }
-
-    public void SelectEpicTurret()
-    {
-        Debug.Log("Epic Turret Selected");
-
-        buildManager.SetTurretToBuild(epicTurret);
-    } 
 }

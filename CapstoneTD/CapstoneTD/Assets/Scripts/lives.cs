@@ -9,6 +9,6 @@ public class lives : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        livesText.text = Stats.lives.ToString() + " LIVE(S)!";
+        livesText.text = Stats.lives.ToString() + " LIVES!";
 	}
 }

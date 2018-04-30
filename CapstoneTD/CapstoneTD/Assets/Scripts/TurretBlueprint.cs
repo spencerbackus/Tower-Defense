@@ -8,11 +8,8 @@ using UnityEngine;
 [System.Serializable]
 public class TurretBlueprint {
 
-    //for tower upgrade information
     public GameObject prefab;
     public int cost;
 
-    public GameObject upgradePrefab;
-    public int upgradeCost;
 
 }
